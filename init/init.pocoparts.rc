@@ -6,6 +6,10 @@ on post-fs-data
 
 on boot
 
+# FPS Info permissions
+  chown system graphics /sys/class/drm/sde-crtc-0/measured_fps
+  chmod 0666 /sys/class/drm/sde-crtc-0/measured_fps
+
 # Thermal
   chmod 0664 /sys/class/thermal/thermal_message/sconfig
   chown system system /sys/class/thermal/thermal_message/sconfig
