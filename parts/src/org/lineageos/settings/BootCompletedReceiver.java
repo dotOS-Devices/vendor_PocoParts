@@ -21,6 +21,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 
+import org.lineageos.settings.utils.FileUtils;
+import org.lineageos.settings.haptic.HapticUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -29,5 +31,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         // Thermal Profiles
         ThermalUtils.startService(context);
+
+        // Vibrator
+        HapticUtils.restoreLevel(context);
     }
 }
