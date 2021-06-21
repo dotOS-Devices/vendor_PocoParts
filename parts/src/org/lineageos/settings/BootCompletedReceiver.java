@@ -28,6 +28,7 @@ import android.os.Handler;
 import org.lineageos.settings.Constants;
 import org.lineageos.settings.utils.DisplayUtils;
 import org.lineageos.settings.utils.FileUtils;
+import org.lineageos.settings.haptic.HapticUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -39,5 +40,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         // Dynamic Refresh Rate
         DisplayUtils.updateRefreshRateSettings(context);
+
+        // Vibrator
+        HapticUtils.restoreLevel(context);
     }
 }
