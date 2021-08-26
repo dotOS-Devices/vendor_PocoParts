@@ -20,7 +20,14 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.ComponentName;
+import android.content.pm.PackageManager;
+import android.content.SharedPreferences;
+import android.os.Handler;
 
+import org.lineageos.settings.Constants;
+import org.lineageos.settings.utils.DisplayUtils;
+import org.lineageos.settings.utils.FileUtils;
 import org.lineageos.settings.thermal.ThermalUtils;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
@@ -29,5 +36,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
     public void onReceive(final Context context, Intent intent) {
         // Thermal Profiles
         ThermalUtils.startService(context);
+
+        // Dynamic Refresh Rate
+        DisplayUtils.updateRefreshRateSettings(context);
     }
 }
