@@ -14,6 +14,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/init/init.pocoparts.rc:$(TARGET_COPY_OUT_PRODUCT)/etc/init/init.pocoparts.rc
 
 PRODUCT_PRODUCT_PROPERTIES += \
+    persist.lcd.hbm_mode=0 \
     persist.lcd.cabc_mode=1
 
 # Overlays
