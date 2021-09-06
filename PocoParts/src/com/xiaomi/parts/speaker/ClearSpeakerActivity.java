@@ -16,12 +16,13 @@
 
 package com.xiaomi.parts.speaker;
 
-import android.app.Activity;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-public class ClearSpeakerActivity extends Activity {
+import com.xiaomi.parts.MonetPreferenceActivity;
+
+public class ClearSpeakerActivity extends MonetPreferenceActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

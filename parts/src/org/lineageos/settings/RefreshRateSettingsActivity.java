@@ -17,9 +17,9 @@
 package org.lineageos.settings;
 
 import android.os.Bundle;
-import android.preference.PreferenceActivity;
+import org.lineageos.settings.MonetPreferenceActivity;
 
-public class RefreshRateSettingsActivity extends PreferenceActivity {
+public class RefreshRateSettingsActivity extends MonetPreferenceActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
