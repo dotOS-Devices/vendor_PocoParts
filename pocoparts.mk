@@ -21,6 +21,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 DEVICE_PACKAGE_OVERLAYS += \
    $(VENDOR_PATH)/overlay
 
+# Properties
+TARGET_VENDOR_PROP += $(VENDOR_PATH)/vendor.prop
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
