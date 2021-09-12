@@ -37,6 +37,7 @@
      <PreferenceCategory
         android:key="display"
         android:layout="@layout/dot_preference_category"
+        app:allowDividerAbove="false"
         android:title="@string/display_title">
 
         <Preference
@@ -77,6 +78,7 @@
      <PreferenceCategory
         android:key="audio"
         android:layout="@layout/dot_preference_category"
+        app:allowDividerAbove="false"
         android:title="@string/audio_category">
 
         <Preference
