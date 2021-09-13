@@ -16,6 +16,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.lcd.cabc_mode=1
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+   $(VENDOR_PATH)/overlay
+
 # Sepolicy
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(VENDOR_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy/vendor
