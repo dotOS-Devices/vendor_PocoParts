@@ -17,10 +17,10 @@
     <!-- Parts - Homepage -->
     <string name="advanced_settings">Poco Parts</string>
     <string name="advanced_settings_summary">Device Specific Customisations</string>
-    <!-- Audio and Vibration-->
-    <string name="audio_category">Audio and Vibration</string>
-    <!-- Display and Touch -->
-    <string name="display_title">Display and Touch</string>
+    <string name="audio_category">Audio</string>
+    <string name="display_title">Display</string>
+    <string name="touch_title">Touch</string>
+    <string name="vibration_title">vibration</string>
 
     <!-- Display - Kcal -->
     <string name="device_kcal_title">Display Color Calibration</string>
