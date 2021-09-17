@@ -14,6 +14,10 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="device_settings_title">Device specific settings</string>
     <string name="device_settings_summary">Customise the device specific aspects</string>
+    <!-- Audio and Vibration-->
+    <string name="audio_category">Audio and Vibration</string>
+    <!-- Display and Touch -->
+    <string name="display_title">Display and Touch</string>
 
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal Profiles and Game Mode</string>
