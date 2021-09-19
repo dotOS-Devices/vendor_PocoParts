@@ -66,6 +66,16 @@
         </Preference>
 
         <Preference
+            android:key="dirac_headset_pref"
+            android:summary="@string/dirac_summary"
+            android:title="@string/dirac_title">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="org.lineageos.settings"
+                android:targetClass="org.lineageos.settings.dirac.DiracActivity" />
+        </Preference>
+
+        <Preference
             android:key="vibrator_control"
             android:title="@string/haptic_level_title"
             android:summary="@string/haptic_level_summary">
