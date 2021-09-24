@@ -12,6 +12,14 @@
      limitations under the License.
 -->
 <resources>
+    <!-- Parts - Homepage -- System -->
+    <string name="device_settings_title">Poco Parts</string>
+    <string name="device_settings_summary">Customise the device specific aspects</string>
+    <!-- Audio and Vibration-->
+    <string name="audio_category">Audio and Vibration</string>
+    <!-- Display and Touch -->
+    <string name="display_title">Display and Touch</string>
+
     <!-- Thermal Profiles -->
     <string name="thermal_title">Thermal profiles and game mode</string>
     <string name="thermal_summary">Per-app thermal and touchscreen profiles</string>
