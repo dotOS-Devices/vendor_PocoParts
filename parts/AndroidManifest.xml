@@ -146,7 +146,7 @@
         <activity
             android:name=".MainSettingsActivity"
             android:label="@string/device_settings_title"
-            android:icon="@drawable/poco"
+            android:icon="@drawable/ic_poco"
             android:theme="@style/Theme.Main">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
