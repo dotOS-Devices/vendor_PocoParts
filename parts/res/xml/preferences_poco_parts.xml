@@ -24,6 +24,7 @@
             android:key="lcd_features_settings"
             android:summary="@string/lcd_features_summary"
             android:layout="@layout/dot_preference_top_card"
+            app:iconSpaceReserved="false"
             android:title="@string/lcd_features_title">
             <intent
                 android:action="android.intent.action.MAIN"
@@ -35,6 +36,7 @@
             android:key="htsr_enable"
             android:title="@string/htsr_enable_title"
             android:layout="@layout/dot_preference_middle_card"
+            app:iconSpaceReserved="false" 
             android:summary="@string/htsr_enable_summary">
             <intent
                 android:action="android.intent.action.MAIN"
@@ -46,6 +48,7 @@
             android:key="thermal_profiles"
             android:summary="@string/thermal_summary"
             android:layout="@layout/dot_preference_bottom_card"
+            app:iconSpaceReserved="false" 
             android:title="@string/thermal_title">
             <intent
                 android:action="android.intent.action.MAIN"
@@ -65,6 +68,7 @@
             android:key="clear_speaker_settings" 
             android:title="@string/clear_speaker_title"
             android:layout="@layout/dot_preference_top_card"
+            app:iconSpaceReserved="false" 
             android:summary="@string/clear_speaker_summary">
             <intent
                 android:action="android.intent.action.MAIN"
@@ -76,6 +80,7 @@
             android:key="dirac_headset_pref"
             android:summary="@string/dirac_summary"
             android:layout="@layout/dot_preference_middle_card"
+            app:iconSpaceReserved="false" 
             android:title="@string/dirac_title">
             <intent
                 android:action="android.intent.action.MAIN"
@@ -87,6 +92,7 @@
             android:key="vibrator_control"
             android:title="@string/haptic_level_title"
             android:layout="@layout/dot_preference_bottom_card"
+            app:iconSpaceReserved="false" 
             android:summary="@string/haptic_level_summary">
             <intent
                 android:action="android.intent.action.MAIN"
